@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.optionBtn {
+    border: 3px solid cornflowerblue;
+    background-color: violet;
+}
