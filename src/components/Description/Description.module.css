@@ -7,15 +7,18 @@
 
 .nameTitle {
 	color: violet;
-    margin-bottom: 10px;
 }
 
 .icon {
     width: 100px;
 	height: 100px;
     color: cornflowerblue;
+    
 }
-
+.icon:hover {
+    transform: scale(1.1);
+    color: violet;
+}
 .descrText {
     color: cornflowerblue;
     font-size: 20px;

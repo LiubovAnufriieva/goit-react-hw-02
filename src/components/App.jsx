@@ -18,7 +18,7 @@ export default function App() {
   }, [feedback]);
 
   const updateFeedback = feedbackType => {
-    setFeedback(prevFeedback => ({
+    setFeedback((prevFeedback) => ({
       ...prevFeedback,
       [feedbackType]: prevFeedback[feedbackType] + 1,
     }));
