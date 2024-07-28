@@ -1,7 +1,7 @@
-import "./Notification.module.css"
-
+import './Notification.module.css';
 
 export default function Notification() {
-  return  
+  return (
     <p>No feedback yet</p>
+  )
 }
